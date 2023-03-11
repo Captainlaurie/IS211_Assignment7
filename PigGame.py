@@ -27,7 +27,7 @@ class PigGame:
         self.dice = Dice()
         self.current_player = 0
         self.current_score = 0
-        self.winning_score = 25
+        self.winning_score = 100
     
     #Function to take input from players whether to roll or hold and bank points.
     def play(self):
